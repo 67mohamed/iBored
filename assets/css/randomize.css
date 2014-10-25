@@ -1,0 +1,91 @@
+    .centered {
+        display: table; margin: 0 auto;
+    }
+
+    html {
+        -webkit-font-smoothing: antialiased;
+    }
+
+    input {
+        outline: none;
+        width:520px;
+        height: 30px;
+        padding:5px;
+        font-family:Arial;
+        font-size:15px;
+        font-weight:bold;
+        font-style:normal;
+        border:1px solid #cdcdcd;
+        border-right: 0px solid;
+        box-sizing: border-box;
+        vertical-align: middle;
+    }
+
+    a {
+        color: inherit;
+        text-decoration: none
+    }
+
+    a:hover{
+        color:#aaaaaa;
+    }
+
+    .title {
+        font-family:Arial;
+        font-size:40px;
+        color:#000000;
+    }
+
+    .currently-playing {
+        font-family:Arial;
+        font-size:20px;
+        font-weight:bold;
+        font-style:normal;
+        color:#ffffff;
+        word-wrap: break-word;
+        width:620px;
+        display: block;
+        white-space: pre-wrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        -o-text-overflow: ellipsis;
+
+    }
+
+    .smalltext {
+        font-family:Arial;
+        font-size: 16px;
+        color:#000000;
+        position:fixed;
+        width:50%;
+        text-align:left;
+        bottom:0px;
+        height:20px;
+    }
+
+    .button {
+        background-color:#e0e0e0;
+        text-indent:0;
+        border:0px solid #dcdcdc;
+        color:#000000;
+        font-family:Arial;
+        font-size:12px;
+        font-weight:bold;
+        font-style:normal;
+        line-height:30px;
+        width:120px;
+        height: 30px;
+        text-decoration:none;
+        text-align:center;
+        outline: none;
+        box-sizing: border-box;
+        vertical-align: middle;
+    }
+    .button:active {
+        background-color:#cdcdcd;
+    }
+
+    .button.skipbutton {
+        width:220px;
+        height:35px;
+    }
